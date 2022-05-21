@@ -1,0 +1,140 @@
+.list-course
+{
+    background-color: var(--uwu-light);
+}
+
+.listing-title
+{
+    color: white;
+    font-weight: 500;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.listing
+{
+    display: flex;
+    padding: 5px;
+}
+
+.list-left
+{
+    border: 5px;
+    border-style: none;
+    height: 340px;
+    margin: 15px;
+    position: relative;
+    width: 44%;
+}
+
+.list-left:hover .list-left-text {
+    opacity: 1;
+}
+
+.list-pic
+{
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+}
+.list-pic:hover
+{
+    transition: 0.5s;
+}
+.description-text
+{
+    color: var(--purple-light);
+}
+
+.list-left-text
+{
+    background: linear-gradient(to top,
+    var(--uwu), var(--blue-light)
+    );
+    display: flex;
+    font-size: 30px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 130px 0;
+    position: absolute;
+    text-align: center;
+    transition:all 0.6s ease;
+    width: auto;
+}
+
+.list-right
+{
+    border: 5px;
+    border-style:none;
+    height: 340px;
+    margin: 15px;
+    width: 50%;
+}
+
+.list-right-title
+{
+
+    color: var(--purple-light);
+    display: flex;
+    font-size:30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.right-contents
+{
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 18px;
+}
+
+.courses-show
+{   
+    border: 5px;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 5px;
+}
+
+.courses-show p
+{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.courses-pic
+{
+    height: 190px;
+    width:320px;
+    object-fit: cover;
+}
+
+.btn-check-now
+{
+    display: inline-block;
+    background-image: linear-gradient(to top,
+    var(--uwu), var(--uwu-dark)
+    );
+    border-color: white;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    width: auto;
+    margin: 0 auto;
+    padding: 2px 1px;
+    text-decoration: none;
+}
+
+.btn-check-now:hover
+{
+    background-image: linear-gradient(to bottom,
+    var(--blue-light), var(--pinky-dark)
+    );
+    color: gold;
+    transition: all 0.3s ease-in-out;
+}

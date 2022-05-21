@@ -1,0 +1,73 @@
+.name-place::placeholder {
+    color: var(--uwu-dark);
+    font-weight: 700;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.login
+{
+    background-color: var(--uwu);
+    padding-left: 5px;
+}
+
+.login-container
+{
+    display: block;
+    padding: 110px 0 ;
+}
+.login-box
+{
+    background:linear-gradient( to bottom,var(--blue-light),var(--uwu-light), white );
+    border: 0;
+    border-radius: 22px;
+    border-style: none;
+    color: var(--uwu-dark);
+    font-weight: 700;
+    font-size: 20px;
+    height: 245px;
+    padding: 20px 10px 15px;
+    margin:auto;
+    text-align: center;
+    width: 40%;
+    
+}
+.login-title
+{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.text-field-login
+{
+    padding: 10px 0;
+}
+
+.text-field-login input
+{
+    color: var(--purple-light);
+    background: whitesmoke;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+a.btn-submit{
+    background-color: var(--purple-light);
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 20px 5px 10px;
+    text-align: center;
+}
+
+a.btn-submit:hover{
+    background:linear-gradient(to bottom, var(--blue-light), var(--pinky-dark));
+    color: gold;
+    transition: 0.4s ease;
+}

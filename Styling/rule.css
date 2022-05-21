@@ -1,0 +1,31 @@
+:root{
+    --uwu: hsl(295, 100%, 85%);
+    --uwu-dark:hsl(295, 100%, 74%);
+    --uwu-light: hsl(296, 87%, 91%);
+    --purple-light: rgb(178, 85, 255);
+    --blue-light:rgb(69, 226, 254);
+    --pinky-dark:rgb(250, 143, 236);
+}
+html
+{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+::-webkit-scrollbar
+{
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background:var(--uwu);
+    border-radius: 5px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+    width: 80%;
+}

@@ -1,0 +1,83 @@
+.our-facilitators
+{
+    background-color: var(--uwu-dark);
+    padding-left: 5px;
+}
+
+.container-facil
+{
+    padding: 20px 0;
+}
+
+.facil-template
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facil-box
+{
+    align-content: space-between;
+    border: 5px;
+    border-style: none;
+    height: 620px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 31%;
+}
+
+.facil-img
+{
+    height: 380px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.facil-box:nth-child(4) .facil-img
+{
+    background-position: center;
+    object-position: 18%;
+}
+
+.facil-box h2
+{
+    color: white;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.facil-box p
+{
+    color: white;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.facil-box button
+{
+    background: linear-gradient(to right, var(--blue-light), var(--purple-light), var(--uwu));
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    padding: 3px 5px;
+}
+
+.facil-box button a
+{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.facil-box button:hover
+{
+    background: linear-gradient(to right, var(--uwu), var(--purple-light), var(--blue-light));
+    transform: scale(1.03);
+    transition: all 2s ease;
+}
+
+.facil-box button a:hover
+{
+    color: gold;
+}

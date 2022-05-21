@@ -1,0 +1,54 @@
+.about-us
+{
+    background: var(--uwu-dark);
+    padding-left: 5px;
+}
+
+.about-us-container
+{
+    display: block;
+    padding:36px 0;
+}
+
+.list-about-us
+{
+    color: white;
+    display: block;
+    padding: 40px 0;
+}
+
+.list-about-us p 
+{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.list-about-us li
+{
+    font-size:23px;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 15px 0 10px;
+}
+
+.list-about-us li a
+{
+    align-items: center;
+    display: flex;
+    color:white;
+    gap: 4px;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+.list-about-us li a:hover
+{
+    color: gold;
+    transition: 0.5s ease;
+}
+
+.about-us-img
+{
+    margin-right: 5px;
+}
+

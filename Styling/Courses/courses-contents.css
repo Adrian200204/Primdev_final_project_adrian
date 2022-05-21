@@ -1,0 +1,110 @@
+.contents2
+{
+    background-color: var(--uwu-dark);
+    padding-left: 5px;
+}
+.container-courses2
+{
+    
+    display: block;
+    padding:20px 0;
+}
+
+.type-contents-title
+{
+    display: flex;
+}
+.all-courses
+{
+    padding-right: 10px;
+}
+
+.btn-title-courses
+{
+    background-color: var(--uwu-light);
+    border: 5px;
+    border-radius: 12px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 23px;
+    padding: 7px 12px;
+}
+
+.btn-title-courses:hover
+{
+    background-color: white;
+    color: gold;
+    transition: 0.5s;
+}
+.btn-title-courses:active
+{
+    background-color: var(--blue-light);
+    color: gold;
+}
+
+.descrip-content2
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 12px;
+}
+
+.box-courses
+{
+    border: 5px;
+    border-style: none;
+    cursor: pointer;
+    display: block;
+    height:260px;
+    margin-bottom: 12px;
+    position: relative;
+    width: 32%;
+}
+
+.box-courses:hover .box-description
+{
+    opacity: 1;
+    transition: 0.6s;
+    transform: scale(1.03);
+}
+
+.box-courses:hover .title-box
+{
+    color: gold;
+    transition: 0.7s ease;
+}
+
+.box-pic
+{
+    object-fit: cover;
+    position:absolute;
+    height: 212px;
+    width: 100%;
+}
+
+.box-description
+{
+    background: linear-gradient(to left,
+    var(--uwu), var(--blue-light)
+    );
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    height: 212px;
+    opacity: 0;
+    padding: 3px;
+    position: absolute;
+    text-align: justify;
+    width: auto;
+}
+.title-box
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 214px;
+    position: relative;
+    text-align: center;
+}
